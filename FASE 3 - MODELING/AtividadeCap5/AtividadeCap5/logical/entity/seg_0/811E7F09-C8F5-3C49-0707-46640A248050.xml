@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="811E7F09-C8F5-3C49-0707-46640A248050" name="T_EMAIL">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 18:17:21 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_email" id="071B01E5-C913-84A7-6F97-25728F990620">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 18:39:35 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_contato" id="5B7BA208-237E-18AD-A9E5-7BE02F0B5A3E">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 18:42:12 UTC</createdTime>
+<generatorID>CF0E44F9-2C61-5DAB-1286-FD375EF16489</generatorID>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<referedAttribute>E182CA51-1EBF-58CE-CC36-812DF13FE3C4</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_email" id="8327499A-9428-A67F-455E-8D797DA71389">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 18:40:51 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="endereço_email" id="98E403C8-2F4B-4AAD-E9C2-BF79B680072B">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 18:41:16 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C01C8B52-0589-90F2-9021-81B9BE2B0EE8" name="T_EMAIL PK">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 18:40:03 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>071B01E5-C913-84A7-6F97-25728F990620</attributeRef>
+<attributeRef>5B7BA208-237E-18AD-A9E5-7BE02F0B5A3E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

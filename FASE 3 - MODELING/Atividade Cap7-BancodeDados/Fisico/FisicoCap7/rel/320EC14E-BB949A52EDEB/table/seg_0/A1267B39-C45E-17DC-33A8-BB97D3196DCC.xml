@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1267B39-C45E-17DC-33A8-BB97D3196DCC" name="T_CARTAO">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>E4135EBD-612E-3357-C0D6-6E8F87A938BA</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cartao" id="7E0DC31E-9BC6-DCC5-6F8B-9F72D62D2E3C">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>13085489-0EB7-75B1-A441-FE58489A1C39</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TIPOCARTAO_id_tipocartao" id="464459F1-369B-3261-3152-98C7D07F0168">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>F996E793-8FAA-3786-016C-7ED5519EC821</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C0455775-2027-B150-89AC-0CF34A4F76D3" referredColumn="808F7D82-5EC2-4FDE-BD31-024822A89D88"/>
+</associations>
+</Column>
+<Column name="T_USUARIOS_id_usuario" id="AE9632CB-EDCC-7A69-1B10-D15EE8B3BD20">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>54A539FD-4DBA-9970-C208-64B21C3D36D8</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D392D83-2F20-BE15-2420-4DA1247BE059" referredColumn="1C91DA03-1CAC-D441-4668-797B8217F32D"/>
+</associations>
+</Column>
+<Column name="dt_validade" id="134DEAD3-AF97-9064-C964-0437DF891B97">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>4FF0F43F-C268-BE5A-9DF9-6C394C99ACB2</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_cvv" id="D2E689F3-B09D-0CAA-137A-BD1CAA016D26">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>C5EC6C4F-15C4-5E4A-1411-6F12E032EEEC</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_limite" id="CF2663DE-1332-4A0A-F798-1419F5762529">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>0FB02944-A8C6-15D0-3B74-4317DE47F57B</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_cartao" id="2437AE24-5079-E84F-4A21-CC60406986DA">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>BD84FFF1-3995-28AD-9967-0A15264ED352</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cartao" id="5A900BD2-F116-8527-CBF2-CDD6A827065D">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>8E0ACF18-144F-B2AB-70CD-9433AA615D07</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="183441C8-D31D-82C1-89B1-67A2E81DBABE" name="T_CARTAO_PK">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>7020FD17-3047-C3B6-08D7-931C9C3D5224</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7E0DC31E-9BC6-DCC5-6F8B-9F72D62D2E3C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5DAC0CAE-1F37-5A79-D2F2-A7B9BE917171" name="T_CARTAO_T_USUARIOS_FK">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>548615F8-1CF1-17B7-90FE-37ECC0C64CD8</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AE9632CB-EDCC-7A69-1B10-D15EE8B3BD20"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6AEB065-6DEA-D767-E334-EA30B39990F1" name="T_CARTAO_T_TIPOCARTAO_FK">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>DDABC14B-8B42-FE4E-1F9F-8B3B6DF69BCE</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="464459F1-369B-3261-3152-98C7D07F0168"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

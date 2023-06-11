@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_9" directorySegmentName="seg_0" id="DDABC14B-8B42-FE4E-1F9F-8B3B6DF69BCE">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:38:07 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<sourcePk>6A606BC5-4C02-89C6-BD57-87C0B3D96546</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4A0232C9-858C-6403-65DA-1E27090EBB4E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E4135EBD-612E-3357-C0D6-6E8F87A938BA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

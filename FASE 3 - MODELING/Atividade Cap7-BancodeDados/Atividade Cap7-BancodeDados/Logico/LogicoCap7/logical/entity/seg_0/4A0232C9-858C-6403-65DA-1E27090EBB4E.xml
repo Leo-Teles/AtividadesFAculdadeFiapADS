@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4A0232C9-858C-6403-65DA-1E27090EBB4E" name="T_TIPOCARTAO">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:29:30 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tipocartao" id="9CADA159-B650-CC82-648C-DC917FA07886">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:29:43 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_tipocartao" id="9A1C25F8-9681-B1BB-F269-9E546A7E0AEC">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:29:53 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bandeira_tipocartao" id="5424A991-B43D-49D7-ADC1-31979DD95176">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:30:50 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6A606BC5-4C02-89C6-BD57-87C0B3D96546" name="T_TIPOCARTAO PK">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:29:51 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9CADA159-B650-CC82-648C-DC917FA07886</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DC91067-044A-1062-CDA7-A5737A9A5490" name="T_CONTATO">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 17:23:23 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_contato" id="E182CA51-1EBF-58CE-CC36-812DF13FE3C4">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 17:23:38 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_contado" id="92A9768F-D140-9716-E3D3-29A262747578">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 17:24:01 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_contato" id="90C93E7E-0348-95F1-512C-3CA546D78C53">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 17:24:17 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_email" id="6F5DAE84-8248-2AF3-6CEF-517097F32A7C">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 17:24:37 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="end_contato" id="FBC95D79-8B13-C8C4-CC47-2C21DF2ED9BF">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 17:55:43 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DD41BADF-CDC9-51C6-FE48-657DBA29BF91" name="T_CONTATO PK">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 17:23:58 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E182CA51-1EBF-58CE-CC36-812DF13FE3C4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

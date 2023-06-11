@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="43D329F1-0EA6-A758-DAF6-AEEBCD457E29" name="T_GASTOS">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>EE873093-C9E1-5D61-E914-26A0B2DC8003</generatorID>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_gasto" id="1FDFB24B-8863-1DA2-7A20-A9A29FBEDAEC">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>2013736C-B34C-C53D-F76D-2713845B15EC</generatorID>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_MEDIAS_id_media" id="8891CD96-6B2B-270C-3B50-A453DF67CF6F">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>964AC736-0DF4-062F-FE2B-A99B3236BD05</generatorID>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5576D0D2-6192-CC05-18DD-C36A30960691" referredColumn="EA79D2A9-3793-2D5D-5395-AC0AA66E5584"/>
+</associations>
+</Column>
+<Column name="T_USUARIOS_id_usuario" id="09E9471A-77FF-3C36-F6F9-3BFDFE689AC0">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>E495F852-5629-7D94-BB6A-7E5DF22AD2F5</generatorID>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="686AF342-B1E2-D167-310C-993C960B29D3" referredColumn="1C91DA03-1CAC-D441-4668-797B8217F32D"/>
+</associations>
+</Column>
+<Column name="vl_gasto" id="B77909CE-43BA-F485-BB66-4DC5744A7C08">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>AA3DFB86-8FD0-25A4-0403-8606BB7494CF</generatorID>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0B90378C-D776-4883-A387-9A6F3E44922B" name="T_GASTOS_PK">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>1A0E082D-872B-4D98-70D0-C8D258CE3720</generatorID>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FDFB24B-8863-1DA2-7A20-A9A29FBEDAEC"/>
+<colUsage columnID="09E9471A-77FF-3C36-F6F9-3BFDFE689AC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C97E7C6-01ED-AC51-1383-9B2E6E0AFE9E" name="T_GASTOS_T_USUARIOS_FK">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>653AAC70-B6D7-B8F3-E540-9C50E6CBBC73</generatorID>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09E9471A-77FF-3C36-F6F9-3BFDFE689AC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16FFC91F-E880-6720-5E62-75ADB12DCD94" name="T_GASTOS_T_MEDIAS_FK">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>5B5EB4C8-5B30-37DA-E6E6-830C9B15C871</generatorID>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8891CD96-6B2B-270C-3B50-A453DF67CF6F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

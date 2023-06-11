@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="FisicoCap7" id="A471D47C-B599-FE81-7AE8-4678625C33EF" version="3.5">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:04:53 UTC</createdTime>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A471D47C-B599-FE81-7AE8-4678625C33EF</designId>
+</OSDM_Design>

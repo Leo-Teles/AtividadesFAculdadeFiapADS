@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F9170530-06B2-954A-564D-EE75792A2C06" name="T_CADASTRO">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:15:48 UTC</createdTime>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cadastro" id="68C3087B-84D3-0D45-8C56-425E6D2EDD1A">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:16:10 UTC</createdTime>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="B8F53050-D741-CED0-70F0-B31981A932A4">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:36:42 UTC</createdTime>
+<generatorID>6B128CF0-B11D-C895-1958-7C6DD2E36D5C</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<referedAttribute>2335ABD5-8125-66BE-DE74-C8778A2DFD9C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="9549F502-FE73-4807-3C19-DC0BC0FF2644">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:16:18 UTC</createdTime>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="B00A66A3-D674-89B1-AD7F-B0681134FAC6">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:16:29 UTC</createdTime>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha" id="48CB6A81-497A-1CEF-7A35-7C4E94B876C0">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:16:47 UTC</createdTime>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="337F0588-9216-B70B-DF4A-5D6BCCFA8C32">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:16:33 UTC</createdTime>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="C68BB725-C71A-1A7A-0EE0-90FA237A4D1F">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:16:51 UTC</createdTime>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="95150E52-38E1-9CDC-FD91-66D0A11BF772" name="T_CADASTRO PK">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:16:17 UTC</createdTime>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>68C3087B-84D3-0D45-8C56-425E6D2EDD1A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

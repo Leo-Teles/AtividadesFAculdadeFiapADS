@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pode terv3" directorySegmentName="seg_0" id="CF0E44F9-2C61-5DAB-1286-FD375EF16489">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 18:42:12 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<engineerTo>
+<item key="F1A974B0-BB8A-4FDC-349B-E504D98D4197" value="true"/>
+</engineerTo>
+<sourcePk>DD41BADF-CDC9-51C6-FE48-657DBA29BF91</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3DC91067-044A-1062-CDA7-A5737A9A5490</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>811E7F09-C8F5-3C49-0707-46640A248050</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E4135EBD-612E-3357-C0D6-6E8F87A938BA" name="T_CARTAO">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:22:27 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cartao" id="13085489-0EB7-75B1-A441-FE58489A1C39">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:22:52 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tipocartao" id="F996E793-8FAA-3786-016C-7ED5519EC821">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:38:07 UTC</createdTime>
+<generatorID>DDABC14B-8B42-FE4E-1F9F-8B3B6DF69BCE</generatorID>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<referedAttribute>9CADA159-B650-CC82-648C-DC917FA07886</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="54A539FD-4DBA-9970-C208-64B21C3D36D8">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:37:27 UTC</createdTime>
+<generatorID>548615F8-1CF1-17B7-90FE-37ECC0C64CD8</generatorID>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<referedAttribute>2335ABD5-8125-66BE-DE74-C8778A2DFD9C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_validade" id="4FF0F43F-C268-BE5A-9DF9-6C394C99ACB2">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:23:10 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_cvv" id="C5EC6C4F-15C4-5E4A-1411-6F12E032EEEC">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:23:30 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_limite" id="0FB02944-A8C6-15D0-3B74-4317DE47F57B">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:23:49 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cartao " id="BD84FFF1-3995-28AD-9967-0A15264ED352">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:24:51 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_cartao" id="8E0ACF18-144F-B2AB-70CD-9433AA615D07">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:25:02 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7020FD17-3047-C3B6-08D7-931C9C3D5224" name="T_CARTAO PK">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:23:09 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>13085489-0EB7-75B1-A441-FE58489A1C39</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

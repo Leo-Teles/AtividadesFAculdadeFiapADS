@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="AtividadeCap5" id="18A11457-802A-CB7D-5FC2-432F3B557F42" version="3.5">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-19 17:08:46 UTC</createdTime>
+<ownerDesignName>AtividadeCap5</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>18A11457-802A-CB7D-5FC2-432F3B557F42</designId>
+</OSDM_Design>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C0455775-2027-B150-89AC-0CF34A4F76D3" containerWithKeyObject="A1267B39-C45E-17DC-33A8-BB97D3196DCC" localFKIndex="B6AEB065-6DEA-D767-E334-EA30B39990F1" name="T_CARTAO_T_TIPOCARTAO_FK">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:56:52 UTC</createdTime>
+<generatorID>DDABC14B-8B42-FE4E-1F9F-8B3B6DF69BCE</generatorID>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<referredTableLongName>T_TIPOCARTAO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>80483BBE-5290-006B-EAFD-BD84451058D5</referredTableID>
+<keyObject>D2DE690E-ECFE-92E8-357F-EEF7B49A4E88</keyObject>
+<referredKeyID>D2DE690E-ECFE-92E8-357F-EEF7B49A4E88</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tipocartao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

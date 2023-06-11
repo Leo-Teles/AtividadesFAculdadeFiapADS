@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Possui" directorySegmentName="seg_0" id="653AAC70-B6D7-B8F3-E540-9C50E6CBBC73">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:32:59 UTC</createdTime>
+<ownerDesignName>FisicoCap7</ownerDesignName>
+<engineerTo>
+<item key="320EC14E-6A7B-B870-6D77-BB949A52EDEB" value="true"/>
+</engineerTo>
+<sourcePk>513A8D7D-0EB0-C375-2B2B-023E36A63D8F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EB87F309-449C-2DF3-92B4-06D242171334</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EE873093-C9E1-5D61-E914-26A0B2DC8003</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

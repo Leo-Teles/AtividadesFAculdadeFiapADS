@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="F5E36DA7-1583-B80C-1BBA-AC201A22204A" mainViewID="896919BD-5B14-A9DA-8E6B-AAC008D4EAB0">
+<createdBy>leote</createdBy>
+<createdTime>2023-05-29 18:04:53 UTC</createdTime>
+<ownerDesignName>LogicoCap7</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
